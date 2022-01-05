@@ -1,0 +1,100 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/galaxy.gif);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: ; */
+    height: 100vh;
+}
+h1{
+    margin-top: 1rem;
+    color: #fff;
+}
+
+form{
+    margin-top: 2rem;
+    width: 500px;
+    border: 0px solid red;
+   
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 0px solid goldenrod;
+    width: 800px;
+    height: 300px;
+}
+
+.box{
+    
+    outline: none;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
+ input, select{
+    height: 28px;
+}
+
+select{
+    width: 130px;
+}
+button{
+    width: 90px;
+    font-size: 9px;
+    font-weight: bolder;
+    background-color: rgba(204, 204, 204, 0.459);
+    color: #fff;
+    height: 24px;
+}
+
+img{
+    align-self: center;
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    background-color:rgba(204, 204, 204, 0.089);
+    display: flex;
+    width: 50%;
+    height: 200px;
+    color: #fff;
+}
+.inner > span:nth-child(1){
+    /* background-color: rgba(204, 204, 204, 0.103); */
+    color: #fff;
+}
+
+.inner > span:nth-child(2){
+    background-color: rgba(204, 204, 204, 0.116);
+    border: #fff 0px solid;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="solar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate a weight of an object on a planet</h1>
+        <form action="">
+            <input type="number" name="mass" id="mass" class="input box">
+            <select name="planet" id="planet" class="box">
+                <option value="" disabled selected>--select here--</option>
+            </select>
+            <button type="submit" class="box">Calculate weight</button>
+        </form>
+        <div class="main">
+            <img src="./images/earth.png" alt="" srcset="">
+            <div class="inner hide">
+                <span class="w-txt">The weight of an object on Earth</span>
+                <span class="result"></span>
+            </div>
+        </div>
+    </div>
+    <script src="solar.js"></script>
+</body>
+</html>
